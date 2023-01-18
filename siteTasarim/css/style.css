@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.navGradient{
+    background-color:#f2f2f2 !important;
+}
+.bannerbg{
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ),url('../assets/main/banner.jpg');
+    
+    background-size:cover;
+}
+.blur{
+    backdrop-filter: blur(5px);
+}
+.eventfilter{
+    filter:brightness(40%);
+}
+.yellow{
+    background-color:#f2f2f2 !important;
+}
+.bannerButton{
+    border-radius:15%;
+    border-width:10px;
+    border-color: #E9DCCD;
+    background-color: #E9DCCD;
+}
+.bannerButton:hover{
+    background-color: #E9DCCD;
+}
+.feature {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+}
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    background-color: #fff;
+    z-index: 999
+} 
+.aboutbgone{
+    background-image: url("../assets/about1.png");
+    background-size:cover;
+    width:100%;
+    height:100%;
+}
+.aboutbgtwo{
+    background-image: url("../assets/about2.png");
+    background-size: cover;
+}
+.aboutbgthree{
+    background-image: url("../assets/about3.png");
+    background-size: cover;
+}
+
+
+
+/*    GÜZEL FONT      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');  /*
+/*    SARIMSI RENK      #E9DCCD        */
